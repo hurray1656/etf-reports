@@ -1,5 +1,6 @@
 {
   "slot": "test",
   "rows": 9,
-  "failed": 0
+  "failed": 0,
+  "incomplete_changes": 0
 }
