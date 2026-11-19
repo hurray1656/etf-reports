@@ -1,10 +1,10 @@
 ﻿code,name,price_krw,change_krw,change_pct,price_date,fetched_at_kst,status,price_type,price_date_source,sign_source
-0035T0,PLUS 글로벌휴머노이드로봇액티브,15870,+315,+2.03,20261118,2026-11-19T06:51:56+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-442580,PLUS 글로벌HBM반도체,69945,+1080,+1.57,20261118,2026-11-19T06:51:57+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-487230,KODEX 미국AI전력핵심인프라,14255,+245,+1.75,20261118,2026-11-19T06:52:09+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-456600,TIME 글로벌AI인공지능액티브,42450,−580,−1.35,20261118,2026-11-19T06:52:14+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-478150,TIME 글로벌우주테크&방산액티브,16540,−30,−0.18,20261118,2026-11-19T06:52:16+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-357870,TIGER CD금리투자KIS(합성),58395,+10,+0.02,20261118,2026-11-19T06:52:27+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-381180,TIGER 미국필라델피아반도체나스닥,33965,+560,+1.68,20261118,2026-11-19T06:52:32+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-360750,TIGER 미국S&P500,24305,−250,−1.02,20261118,2026-11-19T06:52:33+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
-379810,KODEX 미국나스닥100,23895,−145,−0.60,20261118,2026-11-19T06:52:35+09:00,observed,previous_close,stck_bsop_date,prdy_vrss_sign
+0035T0,PLUS 글로벌휴머노이드로봇액티브,15925,+55,+0.35,20261119,2026-11-19T22:58:18+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+442580,PLUS 글로벌HBM반도체,71085,+1140,+1.63,20261119,2026-11-19T22:58:19+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+487230,KODEX 미국AI전력핵심인프라,14440,+185,+1.30,20261119,2026-11-19T22:58:21+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+456600,TIME 글로벌AI인공지능액티브,43105,+655,+1.54,20261119,2026-11-19T22:58:23+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+478150,TIME 글로벌우주테크&방산액티브,16485,−55,−0.33,20261119,2026-11-19T22:58:24+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+357870,TIGER CD금리투자KIS(합성),58410,+15,+0.03,20261119,2026-11-19T22:58:26+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+381180,TIGER 미국필라델피아반도체나스닥,34360,+395,+1.16,20261119,2026-11-19T22:58:28+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+360750,TIGER 미국S&P500,24400,+95,+0.39,20261119,2026-11-19T22:58:29+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
+379810,KODEX 미국나스닥100,24270,+375,+1.57,20261119,2026-11-19T22:58:31+09:00,observed,daily_unconfirmed,stck_bsop_date,prdy_vrss_sign
