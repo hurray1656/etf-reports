@@ -1,0 +1,22 @@
+{
+  "generated_at_kst": "2026-11-20T13:02:59+09:00",
+  "indicator_count": 7,
+  "rows": 17,
+  "observed_sources": 2,
+  "unavailable_sources": 15,
+  "morning_refresh_state": "artifact_unavailable_or_invalid",
+  "downloaded_morning_run_id": null,
+  "source_gate_exit_code": null,
+  "latest_fetched_at_kst": "2026-11-20T13:02:59+09:00",
+  "oldest_fetched_at_kst": "2026-11-20T13:02:58+09:00",
+  "etf_export_state": "preserved_existing_or_unavailable",
+  "production_ready": false,
+  "independent_strategy_confirmation_required": true,
+  "mirror_automatic_agreement_judgment": false,
+  "limitations": [
+    "generated_at is export time; read per-source fetched_at and market_date for data age",
+    "Mirror extraction is static HTML, not browser-widget verification; missing dates are not inferred",
+    "FX conventions differ; change fields are same-source calculations, not independently confirmed exchange changes",
+    "Asia index observations remain private; no accounts or holdings are exported"
+  ]
+}

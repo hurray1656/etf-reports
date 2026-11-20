@@ -1,0 +1,18 @@
+﻿instrument_id,name,source,value,unit,change_value,change_pct,change_basis,market_date,fetched_at_kst,status,value_kind,freshness_at_collection,source_update_at_raw,verification_status,capture_mode
+sp500,S&P500,KIS,,index_points,,,,,,unavailable,,,,,api
+sp500,S&P500,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api
+nasdaq_composite,NASDAQ Composite,KIS,,index_points,,,,,,unavailable,,,,,api
+nasdaq_composite,NASDAQ Composite,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api
+nasdaq100,NASDAQ-100,KIS,,index_points,,,,,,unavailable,,,,,api
+nasdaq100,NASDAQ-100,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api
+dow,Dow,KIS,,index_points,,,,,,unavailable,,,,,api
+dow,Dow,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api
+sox,SOX,KIS,,index_points,,,,,,unavailable,,,,,api
+sox,SOX,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api
+usdkrw,USD/KRW,KIS,,KRW_per_USD,,,,,,unavailable,,,,,api
+usdkrw,USD/KRW,Yahoo Finance,,KRW_per_USD,,,,,,unavailable,,,,,api
+usdkrw,USD/KRW,ECB,,KRW_per_USD,,,,,,unavailable,,,,,api
+cnn_fear_greed,CNN Fear & Greed,CNN API,,score_0_100,,,,,,unavailable,,,,,api
+cnn_fear_greed,CNN Fear & Greed,CNN page,,score_0_100,,,,,,unavailable,,,,,api
+cnn_fear_greed,CNN Fear & Greed,feargreedmeter.com,19,score_0_100,,,,,2026-11-20T13:02:58+09:00,observed,mirror_static_page_text,date_unverified,,not_independent_validation,static_page_text_not_browser_widget
+cnn_fear_greed,CNN Fear & Greed,finhacker.cz,19,score_0_100,,,,20261119,2026-11-20T13:02:59+09:00,observed,mirror_static_page_text,date_unverified,"Nov 19, 2026, 6:59 PM ET",not_independent_validation,static_page_text_not_browser_widget
