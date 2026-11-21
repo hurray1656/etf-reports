@@ -14,5 +14,5 @@ usdkrw,USD/KRW,Yahoo Finance,,KRW_per_USD,,,,,,unavailable,,,,,api
 usdkrw,USD/KRW,ECB,,KRW_per_USD,,,,,,unavailable,,,,,api
 cnn_fear_greed,CNN Fear & Greed,CNN API,,score_0_100,,,,,,unavailable,,,,,api
 cnn_fear_greed,CNN Fear & Greed,CNN page,,score_0_100,,,,,,unavailable,,,,,api
-cnn_fear_greed,CNN Fear & Greed,feargreedmeter.com,19,score_0_100,,,,,2026-11-20T13:02:58+09:00,observed,mirror_static_page_text,date_unverified,,not_independent_validation,static_page_text_not_browser_widget
-cnn_fear_greed,CNN Fear & Greed,finhacker.cz,19,score_0_100,,,,20261119,2026-11-20T13:02:59+09:00,observed,mirror_static_page_text,date_unverified,"Nov 19, 2026, 6:59 PM ET",not_independent_validation,static_page_text_not_browser_widget
+cnn_fear_greed,CNN Fear & Greed,feargreedmeter.com,10,score_0_100,,,,,2026-11-21T11:41:33+09:00,observed,mirror_static_page_text,date_unverified,,not_independent_validation,static_page_text_not_browser_widget
+cnn_fear_greed,CNN Fear & Greed,finhacker.cz,10,score_0_100,,,,20261120,2026-11-21T11:41:34+09:00,observed,mirror_static_page_text,date_unverified,"Nov 20, 2026, 6:59 PM ET",not_independent_validation,static_page_text_not_browser_widget
