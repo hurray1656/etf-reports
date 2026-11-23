@@ -1,14 +1,14 @@
 ﻿instrument_id,name,source,value,unit,change_value,change_pct,change_basis,market_date,fetched_at_kst,status,value_kind,freshness_at_collection,source_update_at_raw,verification_status,capture_mode,error_kind
-sp500,S&P500,KIS,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
-sp500,S&P500,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
-nasdaq_composite,NASDAQ Composite,KIS,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
-nasdaq_composite,NASDAQ Composite,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
+sp500,S&P500,KIS,6910.39,index_points,-265.44,-3.70,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:52+09:00,observed,daily_close_candidate,current,,cross_checked_candidate,api,
+sp500,S&P500,Yahoo Finance,6910.39013671875,index_points,-265.44,-3.70,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:52+09:00,observed,daily_close_candidate,current,,cross_checked_candidate,api,
+nasdaq_composite,NASDAQ Composite,KIS,22617.73,index_points,-1261.47,-5.28,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:53+09:00,observed,daily_close_candidate,current,,cross_checked_candidate,api,
+nasdaq_composite,NASDAQ Composite,Yahoo Finance,22617.73046875,index_points,-1261.47,-5.28,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:53+09:00,observed,daily_close_candidate,current,,cross_checked_candidate,api,
 nasdaq100,NASDAQ-100,KIS,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
-nasdaq100,NASDAQ-100,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
-dow,Dow,KIS,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
-dow,Dow,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
+nasdaq100,NASDAQ-100,Yahoo Finance,25028.98046875,index_points,-1488.07,-5.61,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:53+09:00,observed,daily_close_candidate,current,,single_source_or_not_comparable,api,
+dow,Dow,KIS,48147.33,index_points,-949.73,-1.93,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:54+09:00,observed,daily_close_candidate,current,,cross_checked_candidate,api,
+dow,Dow,Yahoo Finance,48147.328125,index_points,-949.73,-1.93,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:54+09:00,observed,daily_close_candidate,current,,cross_checked_candidate,api,
 sox,SOX,KIS,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
-sox,SOX,Yahoo Finance,,index_points,,,,,,unavailable,,,,,api,skipped_outside_window
+sox,SOX,Yahoo Finance,8408.58984375,index_points,-1011.13,-10.73,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:54+09:00,observed,daily_close_candidate,current,,single_source_or_not_comparable,api,
 usdkrw,USD/KRW,KIS,,KRW_per_USD,,,,,,unavailable,,,,,api,skipped_outside_window
 usdkrw,USD/KRW,Yahoo Finance,,KRW_per_USD,,,,,,unavailable,,,,,api,skipped_outside_window
 usdkrw,USD/KRW,ECB,,KRW_per_USD,,,,,,unavailable,,,,,api,skipped_outside_window
@@ -16,3 +16,12 @@ cnn_fear_greed,CNN Fear & Greed,CNN API,,score_0_100,,,,,,unavailable,,,,,api,sk
 cnn_fear_greed,CNN Fear & Greed,CNN page,,score_0_100,,,,,,unavailable,,,,,api,skipped_outside_window
 cnn_fear_greed,CNN Fear & Greed,feargreedmeter.com,10,score_0_100,,,,,2026-11-21T11:41:33+09:00,observed,mirror_static_page_text,date_unverified,,not_independent_validation,static_page_text_not_browser_widget,
 cnn_fear_greed,CNN Fear & Greed,finhacker.cz,10,score_0_100,,,,20261120,2026-11-21T11:41:34+09:00,observed,mirror_static_page_text,date_unverified,"Nov 20, 2026, 6:59 PM ET",not_independent_validation,static_page_text_not_browser_widget,
+us5y,US Treasury 5Y,US Treasury,4.71,percent,-0.15,-3.09,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:53:55+09:00,observed,treasury_par_yield_cmt,current,,single_source_or_not_comparable,api,
+us5y,US Treasury 5Y,FRED,,percent,,,,,,unavailable,,,,,api,not_collected
+us5y,US Treasury 5Y,Yahoo Finance,4.701000213623047,percent,-0.16,-3.39,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:54:20+09:00,observed,yahoo_cboe_yield_close,current,,single_source_or_not_comparable,api,
+us10y,US Treasury 10Y,US Treasury,4.92,percent,-0.12,-2.38,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:54:20+09:00,observed,treasury_par_yield_cmt,current,,single_source_or_not_comparable,api,
+us10y,US Treasury 10Y,FRED,,percent,,,,,,unavailable,,,,,api,not_collected
+us10y,US Treasury 10Y,Yahoo Finance,4.9120001792907715,percent,-0.14,-2.77,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:54:45+09:00,observed,yahoo_cboe_yield_close,current,,single_source_or_not_comparable,api,
+us30y,US Treasury 30Y,US Treasury,5.31,percent,-0.09,-1.67,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:54:45+09:00,observed,treasury_par_yield_cmt,current,,single_source_or_not_comparable,api,
+us30y,US Treasury 30Y,FRED,,percent,,,,,,unavailable,,,,,api,not_collected
+us30y,US Treasury 30Y,Yahoo Finance,5.302999973297119,percent,-0.10,-1.81,same_source_previous_available_row_not_calendar_verified,20261120,2026-11-23T10:55:10+09:00,observed,yahoo_cboe_yield_close,current,,single_source_or_not_comparable,api,

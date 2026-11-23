@@ -1,23 +1,131 @@
 {
-  "generated_at_kst": "2026-11-22T10:29:07+09:00",
-  "indicator_count": 7,
-  "rows": 17,
-  "observed_sources": 2,
-  "unavailable_sources": 15,
-  "morning_refresh_state": "skipped_outside_window",
+  "generated_at_kst": "2026-11-23T10:55:10+09:00",
+  "indicator_count": 10,
+  "rows": 26,
+  "observed_sources": 16,
+  "unavailable_sources": 10,
+  "morning_refresh_state": "delayed_recovery",
   "morning_source_mode": "local_same_run",
-  "downloaded_morning_run_id": 44971655354,
-  "source_gate_exit_code": null,
-  "latest_fetched_at_kst": "2026-11-21T11:41:34+09:00",
+  "downloaded_morning_run_id": 45097101185,
+  "window_checked_at_kst": "2026-11-23T10:53:48.358914+09:00",
+  "expected_market_date": "20261120",
+  "recovery_observed_sources": 14,
+  "recovery_inputs": [
+    {
+      "instrument_id": "dow",
+      "source": "KIS"
+    },
+    {
+      "instrument_id": "dow",
+      "source": "Yahoo Finance"
+    },
+    {
+      "instrument_id": "nasdaq100",
+      "source": "Yahoo Finance"
+    },
+    {
+      "instrument_id": "nasdaq_composite",
+      "source": "KIS"
+    },
+    {
+      "instrument_id": "nasdaq_composite",
+      "source": "Yahoo Finance"
+    },
+    {
+      "instrument_id": "sox",
+      "source": "Yahoo Finance"
+    },
+    {
+      "instrument_id": "sp500",
+      "source": "KIS"
+    },
+    {
+      "instrument_id": "sp500",
+      "source": "Yahoo Finance"
+    },
+    {
+      "instrument_id": "us10y",
+      "source": "US Treasury"
+    },
+    {
+      "instrument_id": "us10y",
+      "source": "Yahoo Finance"
+    },
+    {
+      "instrument_id": "us30y",
+      "source": "US Treasury"
+    },
+    {
+      "instrument_id": "us30y",
+      "source": "Yahoo Finance"
+    },
+    {
+      "instrument_id": "us5y",
+      "source": "US Treasury"
+    },
+    {
+      "instrument_id": "us5y",
+      "source": "Yahoo Finance"
+    }
+  ],
+  "source_gate_exit_code": 1,
+  "latest_fetched_at_kst": "2026-11-23T10:55:10+09:00",
   "oldest_fetched_at_kst": "2026-11-21T11:41:33+09:00",
   "etf_export_state": "not_run",
+  "yield_equity_monitor": {
+    "regime": "insufficient_data",
+    "reason": "delayed_recovery_does_not_collect_cnn",
+    "us10y_zone": "elevated",
+    "curve_30y_5y_bps": 60,
+    "thresholds": {
+      "us10y_eased_max_pct": "4.50",
+      "us10y_pressure_min_pct": "5.00",
+      "us10y_shock_jump_pct": "0.05",
+      "cnn_fear_threshold": "35"
+    },
+    "inputs": {
+      "us10y": {
+        "source": "US Treasury",
+        "market_date": "20261120",
+        "value": "4.92",
+        "change_value": "-0.12"
+      },
+      "us5y": {
+        "source": "US Treasury",
+        "market_date": "20261120",
+        "value": "4.71",
+        "change_value": "-0.15"
+      },
+      "us30y": {
+        "source": "US Treasury",
+        "market_date": "20261120",
+        "value": "5.31",
+        "change_value": "-0.09"
+      },
+      "sp500": {
+        "source": "KIS",
+        "market_date": "20261120",
+        "value": "6910.39",
+        "change_value": "-265.44"
+      },
+      "sox": {
+        "source": "Yahoo Finance",
+        "market_date": "20261120",
+        "value": "8408.58984375",
+        "change_value": "-1011.13"
+      },
+      "cnn_fear_greed": null
+    },
+    "advisory_only": true,
+    "auto_trade_enabled": false
+  },
   "production_ready": false,
   "independent_strategy_confirmation_required": true,
   "mirror_automatic_agreement_judgment": false,
   "limitations": [
-    "generated_at is export time; read per-source fetched_at and market_date for data age",
-    "Mirror extraction is static HTML, not browser-widget verification; missing dates are not inferred",
-    "FX conventions differ; change fields are same-source calculations, not independently confirmed exchange changes",
-    "Asia index observations remain private; no accounts or holdings are exported"
+    "Delayed recovery is not an on-time collection.",
+    "Expected US date uses weekdays only; on holidays no earlier date is substituted.",
+    "Unrefreshed rows keep their original market dates and fetch times.",
+    "Only US daily index and Treasury observations are refreshed; no final-close certification."
   ]
 }
