@@ -1,15 +1,15 @@
 {
-  "slot": "intraday",
+  "slot": "close",
   "rows": 9,
   "failed": 0,
   "incomplete_changes": 0,
-  "generated_at_kst": "2026-11-25T14:31:07+09:00",
+  "generated_at_kst": "2026-11-25T15:32:33+09:00",
   "generation_time_state": "recorded",
-  "latest_fetched_at_kst": "2026-11-25T14:31:06+09:00",
-  "last_attempt_at_kst": "2026-11-25T14:31:07+09:00",
-  "last_attempt_slot": "intraday",
+  "latest_fetched_at_kst": "2026-11-25T15:32:32+09:00",
+  "last_attempt_at_kst": "2026-11-25T15:32:33+09:00",
+  "last_attempt_slot": "close",
   "last_attempt_state": "collected",
   "last_attempt_event": "workflow_dispatch",
   "last_attempt_schedule_expression": null,
-  "last_attempt_run_id": "45554047517"
+  "last_attempt_run_id": "45561319945"
 }
