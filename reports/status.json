@@ -6,10 +6,10 @@
   "generated_at_kst": "2026-11-25T15:32:33+09:00",
   "generation_time_state": "recorded",
   "latest_fetched_at_kst": "2026-11-25T15:32:32+09:00",
-  "last_attempt_at_kst": "2026-11-26T00:52:30+09:00",
-  "last_attempt_slot": "intraday",
+  "last_attempt_at_kst": "2026-11-26T02:28:45+09:00",
+  "last_attempt_slot": "close",
   "last_attempt_state": "skipped_outside_window",
   "last_attempt_event": "schedule",
-  "last_attempt_schedule_expression": "30 5 * * 1-5",
-  "last_attempt_run_id": "45649342839"
+  "last_attempt_schedule_expression": "32 6 * * 1-5",
+  "last_attempt_run_id": "45665148503"
 }
