@@ -1,80 +1,44 @@
 {
-  "generated_at_kst": "2026-11-26T12:43:13+09:00",
-  "indicator_count": 10,
-  "rows": 26,
-  "observed_sources": 18,
-  "unavailable_sources": 8,
-  "morning_refresh_state": "delayed_recovery",
+  "generated_at_kst": "2026-11-27T06:32:18+09:00",
+  "indicator_count": 15,
+  "rows": 34,
+  "observed_sources": 21,
+  "unavailable_sources": 13,
+  "morning_refresh_state": "collected_with_gate_warning",
   "morning_source_mode": "local_same_run",
-  "downloaded_morning_run_id": 45750548560,
-  "window_checked_at_kst": "2026-11-26T12:41:51.105819+09:00",
-  "expected_market_date": "20261125",
-  "recovery_observed_sources": 14,
-  "recovery_inputs": [
-    {
-      "instrument_id": "dow",
-      "source": "KIS"
-    },
-    {
-      "instrument_id": "dow",
-      "source": "Yahoo Finance"
-    },
-    {
-      "instrument_id": "nasdaq100",
-      "source": "Yahoo Finance"
-    },
-    {
-      "instrument_id": "nasdaq_composite",
-      "source": "KIS"
-    },
-    {
-      "instrument_id": "nasdaq_composite",
-      "source": "Yahoo Finance"
-    },
-    {
-      "instrument_id": "sox",
-      "source": "Yahoo Finance"
-    },
-    {
-      "instrument_id": "sp500",
-      "source": "KIS"
-    },
-    {
-      "instrument_id": "sp500",
-      "source": "Yahoo Finance"
-    },
-    {
-      "instrument_id": "us10y",
-      "source": "US Treasury"
-    },
-    {
-      "instrument_id": "us10y",
-      "source": "Yahoo Finance"
-    },
-    {
-      "instrument_id": "us30y",
-      "source": "US Treasury"
-    },
-    {
-      "instrument_id": "us30y",
-      "source": "Yahoo Finance"
-    },
-    {
-      "instrument_id": "us5y",
-      "source": "US Treasury"
-    },
-    {
-      "instrument_id": "us5y",
-      "source": "Yahoo Finance"
-    }
-  ],
-  "source_gate_exit_code": 1,
-  "latest_fetched_at_kst": "2026-11-26T12:43:13+09:00",
-  "oldest_fetched_at_kst": "2026-11-26T06:30:40+09:00",
+  "downloaded_morning_run_id": 45898597571,
+  "source_gate_exit_code": 3,
+  "latest_fetched_at_kst": "2026-11-27T06:34:00+09:00",
+  "oldest_fetched_at_kst": "2026-11-27T06:30:42+09:00",
   "etf_export_state": "not_run",
+  "flows": {
+    "file": "reports/flows.csv",
+    "state": "collected",
+    "rows": 29,
+    "observed_rows": 20,
+    "unavailable_rows": 9,
+    "indicators": {
+      "kospi_investor_flow": {
+        "observed": 3,
+        "unavailable": 0
+      },
+      "index_ma": {
+        "observed": 15,
+        "unavailable": 5
+      },
+      "kospi_daily": {
+        "observed": 2,
+        "unavailable": 3
+      },
+      "credit_balance": {
+        "observed": 0,
+        "unavailable": 1
+      }
+    }
+  },
   "yield_equity_monitor": {
-    "regime": "insufficient_data",
-    "reason": "delayed_recovery_does_not_collect_cnn",
+    "regime": "risk_off_flight_to_safety",
+    "reason": "us10y_falling_with_sp500_sox_selloff_and_fear",
     "us10y_zone": "elevated",
     "curve_30y_5y_bps": 59,
     "thresholds": {
@@ -111,10 +75,15 @@
       "sox": {
         "source": "Yahoo Finance",
         "market_date": "20261125",
-        "value": "8774.8623046875",
+        "value": "8774.8603515625",
         "change_value": "-57.64"
       },
-      "cnn_fear_greed": null
+      "cnn_fear_greed": {
+        "source": "finhacker.cz",
+        "market_date": "20261125",
+        "value": "15",
+        "change_value": null
+      }
     },
     "advisory_only": true,
     "auto_trade_enabled": false
@@ -123,9 +92,10 @@
   "independent_strategy_confirmation_required": true,
   "mirror_automatic_agreement_judgment": false,
   "limitations": [
-    "Delayed recovery is not an on-time collection.",
-    "Expected US date uses weekdays only; on holidays no earlier date is substituted.",
-    "Unrefreshed rows keep their original market dates and fetch times.",
-    "Only US daily index and Treasury observations are refreshed; no final-close certification."
-  ]
+    "generated_at is export time; read per-source fetched_at and market_date for data age",
+    "Mirror extraction is static HTML, not browser-widget verification; missing dates are not inferred",
+    "FX conventions differ; US Treasury CMT, FRED H.15, and Yahoo CBOE yields differ in convention and lag; observation-only",
+    "Asia index observations remain private; no accounts or holdings are exported"
+  ],
+  "phase2_state": "merged"
 }

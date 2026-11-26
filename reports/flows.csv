@@ -1,0 +1,30 @@
+﻿instrument_id,name,source,value,unit,change_value,change_pct,change_basis,market_date,fetched_at_kst,status,value_kind,freshness_at_collection,source_update_at_raw,verification_status,capture_mode,error_kind
+kospi_investor_flow_foreign,KOSPI Foreign Net Buy,KIS,-885.58,KRW_100m,,,,20261126,2026-11-27T06:32:06+09:00,observed,net_buy_krw_100m_from_kis_million,current,,single_source_or_not_comparable,api,
+kospi_investor_flow_institution,KOSPI Institution Net Buy,KIS,+7535.12,KRW_100m,,,,20261126,2026-11-27T06:32:06+09:00,observed,net_buy_krw_100m_from_kis_million,current,,single_source_or_not_comparable,api,
+kospi_investor_flow_individual,KOSPI Individual Net Buy,KIS,-10747.89,KRW_100m,,,,20261126,2026-11-27T06:32:06+09:00,observed,net_buy_krw_100m_from_kis_million,current,,single_source_or_not_comparable,api,
+kospi_index_close,KOSPI Close,KIS,4711.21,index_points,+13.70,+0.29,same_source_previous_available_row_not_calendar_verified,20261126,2026-11-27T06:32:13+09:00,observed,daily_close_candidate,current,,single_source_or_not_comparable,api,
+kospi_index_ma50,KOSPI MA50,computed_from:KIS(50d),5880.28,index_points,,,,20261126,2026-11-27T06:32:13+09:00,observed,moving_average_50d,current,,computed_from_daily_close,api,
+kospi_index_ma200,KOSPI MA200,computed_from:KIS(200d),5779.90,index_points,,,,20261126,2026-11-27T06:32:13+09:00,observed,moving_average_200d,current,,computed_from_daily_close,api,
+kospi_index_gap50,KOSPI Gap vs MA50,computed_from:KIS(50d),-19.88,percent,,,,20261126,2026-11-27T06:32:13+09:00,observed,ma50_gap_pct,current,,computed_from_daily_close,api,
+kospi_index_gap200,KOSPI Gap vs MA200,computed_from:KIS(200d),-18.49,percent,,,,20261126,2026-11-27T06:32:13+09:00,observed,ma200_gap_pct,current,,computed_from_daily_close,api,
+kospi_index_close,KOSPI Close,Yahoo Finance,4697.509765625,index_points,-308.52,-6.16,same_source_previous_available_row_not_calendar_verified,20261125,2026-11-27T06:32:13+09:00,observed,daily_close_candidate,stale_or_holiday_unverified,,single_source_or_not_comparable,api,
+kospi_index_ma50,KOSPI MA50,computed_from:Yahoo Finance(50d),5932.77,index_points,,,,20261125,2026-11-27T06:32:13+09:00,observed,moving_average_50d,stale_or_holiday_unverified,,computed_from_daily_close,api,
+kospi_index_ma200,KOSPI MA200,computed_from:Yahoo Finance(200d),6519.59,index_points,,,,20261125,2026-11-27T06:32:13+09:00,observed,moving_average_200d,stale_or_holiday_unverified,,computed_from_daily_close,api,
+kospi_index_gap50,KOSPI Gap vs MA50,computed_from:Yahoo Finance(50d),-20.82,percent,,,,20261125,2026-11-27T06:32:13+09:00,observed,ma50_gap_pct,stale_or_holiday_unverified,,computed_from_daily_close,api,
+kospi_index_gap200,KOSPI Gap vs MA200,computed_from:Yahoo Finance(200d),-27.95,percent,,,,20261125,2026-11-27T06:32:13+09:00,observed,ma200_gap_pct,stale_or_holiday_unverified,,computed_from_daily_close,api,
+nasdaq100_index_close,NASDAQ-100 Close,KIS,,index_points,,,,,,unavailable,daily_close_candidate,,,,api,master_symbol_unresolved_or_ambiguous
+nasdaq100_index_ma50,NASDAQ-100 MA50,computed_from:KIS(50d),,index_points,,,,,,unavailable,moving_average_50d,,,,api,master_symbol_unresolved_or_ambiguous
+nasdaq100_index_ma200,NASDAQ-100 MA200,computed_from:KIS(200d),,index_points,,,,,,unavailable,moving_average_200d,,,,api,master_symbol_unresolved_or_ambiguous
+nasdaq100_index_gap50,NASDAQ-100 Gap vs MA50,computed_from:KIS(50d),,percent,,,,,,unavailable,ma50_gap_pct,,,,api,master_symbol_unresolved_or_ambiguous
+nasdaq100_index_gap200,NASDAQ-100 Gap vs MA200,computed_from:KIS(200d),,percent,,,,,,unavailable,ma200_gap_pct,,,,api,master_symbol_unresolved_or_ambiguous
+nasdaq100_index_close,NASDAQ-100 Close,Yahoo Finance,26046.900390625,index_points,-167.27,-0.64,same_source_previous_available_row_not_calendar_verified,20261125,2026-11-27T06:32:17+09:00,observed,daily_close_candidate,stale_or_holiday_unverified,,single_source_or_not_comparable,api,
+nasdaq100_index_ma50,NASDAQ-100 MA50,computed_from:Yahoo Finance(50d),29064.20,index_points,,,,20261125,2026-11-27T06:32:17+09:00,observed,moving_average_50d,stale_or_holiday_unverified,,computed_from_daily_close,api,
+nasdaq100_index_ma200,NASDAQ-100 MA200,computed_from:Yahoo Finance(200d),28090.98,index_points,,,,20261125,2026-11-27T06:32:17+09:00,observed,moving_average_200d,stale_or_holiday_unverified,,computed_from_daily_close,api,
+nasdaq100_index_gap50,NASDAQ-100 Gap vs MA50,computed_from:Yahoo Finance(50d),-10.38,percent,,,,20261125,2026-11-27T06:32:17+09:00,observed,ma50_gap_pct,stale_or_holiday_unverified,,computed_from_daily_close,api,
+nasdaq100_index_gap200,NASDAQ-100 Gap vs MA200,computed_from:Yahoo Finance(200d),-7.28,percent,,,,20261125,2026-11-27T06:32:17+09:00,observed,ma200_gap_pct,stale_or_holiday_unverified,,computed_from_daily_close,api,
+kospi_daily_close,KOSPI Daily Close,KIS,4711.21,index_points,+13.70,+0.29,same_source_previous_available_row_not_calendar_verified,20261126,2026-11-27T06:32:13+09:00,observed,daily_close_candidate,current,,single_source_or_not_comparable,api,
+kospi_daily_close,KOSPI Daily Close,Yahoo Finance,4697.509765625,index_points,-308.52,-6.16,same_source_previous_available_row_not_calendar_verified,20261125,2026-11-27T06:32:13+09:00,observed,daily_close_candidate,stale_or_holiday_unverified,,single_source_or_not_comparable,api,
+kospi_sidecar_sell,KOSPI Sell Sidecar Triggered,KRX KIND,,flag,,,,,,unavailable,market_halt_flag,,,,notice_unverified,krx_kind_parser_unverified
+kospi_sidecar_buy,KOSPI Buy Sidecar Triggered,KRX KIND,,flag,,,,,,unavailable,market_halt_flag,,,,notice_unverified,krx_kind_parser_unverified
+kospi_circuit_breaker,KOSPI Circuit Breaker Triggered,KRX KIND,,flag,,,,,,unavailable,market_halt_flag,,,,notice_unverified,krx_kind_parser_unverified
+credit_balance_kospi,KOSPI Margin Credit Balance,KOFIA,,KRW_100m,,,,,,unavailable,credit_loan_kospi_krw_100m_from_million_assumed,,,,api,credit_field_unverified
