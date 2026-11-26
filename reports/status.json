@@ -3,13 +3,13 @@
   "rows": 9,
   "failed": 0,
   "incomplete_changes": 0,
-  "generated_at_kst": "2026-11-26T10:01:14+09:00",
+  "generated_at_kst": "2026-11-26T14:31:09+09:00",
   "generation_time_state": "recorded",
-  "latest_fetched_at_kst": "2026-11-26T10:01:13+09:00",
-  "last_attempt_at_kst": "2026-11-26T10:01:14+09:00",
+  "latest_fetched_at_kst": "2026-11-26T14:31:07+09:00",
+  "last_attempt_at_kst": "2026-11-26T14:31:09+09:00",
   "last_attempt_slot": "intraday",
   "last_attempt_state": "collected",
   "last_attempt_event": "workflow_dispatch",
   "last_attempt_schedule_expression": null,
-  "last_attempt_run_id": "45732748648"
+  "last_attempt_run_id": "45762044214"
 }
