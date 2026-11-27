@@ -5,12 +5,12 @@
 
 |code|name|price_krw|change_krw|change_pct|price_date|fetched_at_kst|status|price_type|price_date_source|sign_source|price_field|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|0035T0|PLUS 글로벌휴머노이드로봇액티브|15850|-105|-0.66|20261126|2026-11-26T15:32:20+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|442580|PLUS 글로벌HBM반도체|61885|+895|+1.47|20261126|2026-11-26T15:32:22+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|487230|KODEX 미국AI전력핵심인프라|13210|+325|+2.52|20261126|2026-11-26T15:32:23+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|456600|TIME 글로벌AI인공지능액티브|40720|+720|+1.80|20261126|2026-11-26T15:32:25+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|478150|TIME 글로벌우주테크&방산액티브|16260|+250|+1.56|20261126|2026-11-26T15:32:26+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|357870|TIGER CD금리투자KIS(합성)|58445|+10|+0.02|20261126|2026-11-26T15:32:28+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|381180|TIGER 미국필라델피아반도체나스닥|30885|+860|+2.86|20261126|2026-11-26T15:32:29+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|360750|TIGER 미국S&P500|24010|+205|+0.86|20261126|2026-11-26T15:32:31+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
-|379810|KODEX 미국나스닥100|23245|+310|+1.35|20261126|2026-11-26T15:32:33+09:00|observed|daily_unconfirmed|stck_bsop_date|prdy_vrss_sign|stck_clpr|
+|0035T0|PLUS 글로벌휴머노이드로봇액티브|16345|+495|+3.12|20261127(별도 일별 행 대조)|2026-11-27T10:00:44+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|442580|PLUS 글로벌HBM반도체|61215|-670|-1.08|20261127(별도 일별 행 대조)|2026-11-27T10:00:48+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|487230|KODEX 미국AI전력핵심인프라|13215|+5|+0.04|20261127(별도 일별 행 대조)|2026-11-27T10:00:53+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|456600|TIME 글로벌AI인공지능액티브|40975|+255|+0.63|20261127(별도 일별 행 대조)|2026-11-27T10:01:02+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|478150|TIME 글로벌우주테크&방산액티브|16435|+175|+1.08|20261127(별도 일별 행 대조)|2026-11-27T10:01:05+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|357870|TIGER CD금리투자KIS(합성)|58247|+7|+0.01|20261127(별도 일별 행 대조)|2026-11-27T10:01:18+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|381180|TIGER 미국필라델피아반도체나스닥|30960|+75|+0.24|20261127(별도 일별 행 대조)|2026-11-27T10:01:23+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|360750|TIGER 미국S&P500|24105|+95|+0.40|20261127(별도 일별 행 대조)|2026-11-27T10:01:26+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
+|379810|KODEX 미국나스닥100|23310|+65|+0.28|20261127(별도 일별 행 대조)|2026-11-27T10:01:30+09:00|observed|intraday_stck_prpr|query_date_crosschecked_daily_row|prdy_vrss_sign|stck_prpr|
